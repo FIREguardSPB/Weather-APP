@@ -1,0 +1,39 @@
+.widget {
+
+    /*display: flex;*/
+}
+
+body {
+    background: linear-gradient(to top left, powderblue, pink);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid;
+    background-color: skyblue;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+
+.header {
+    height: 30px;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+
+.input {
+    margin-left: 10%;
+    background-color: beige;
+}

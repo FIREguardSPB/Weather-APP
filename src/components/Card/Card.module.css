@@ -1,0 +1,41 @@
+.cardBody {
+    display: flex;
+    height: 300px;
+    background: cornflowerblue;
+    flex-direction: column;
+    border-top: 1px solid;
+    border-radius: 10%;
+}
+.trash{
+    cursor: pointer;
+}
+.mainInfo{
+    margin-top: 10px;
+    display: flex;
+flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.icon {
+
+}
+.cityName{
+margin-top: 10px;
+    border-bottom: 1px solid;
+    margin: 0 auto;
+
+}
+.temperature{
+font-size: 100pt;
+    margin-left: 10px;
+}
+.description{
+
+}
+.feelsLike{
+
+}
+.humidity{
+
+}
